@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lgm-student-enrollment-task/static/css/main.ec8d9451.css",
+    "main.js": "/lgm-student-enrollment-task/static/js/main.4e853292.js",
+    "static/js/453.ed3810f9.chunk.js": "/lgm-student-enrollment-task/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/lgm-student-enrollment-task/index.html",
+    "main.ec8d9451.css.map": "/lgm-student-enrollment-task/static/css/main.ec8d9451.css.map",
+    "main.4e853292.js.map": "/lgm-student-enrollment-task/static/js/main.4e853292.js.map",
+    "453.ed3810f9.chunk.js.map": "/lgm-student-enrollment-task/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec8d9451.css",
+    "static/js/main.4e853292.js"
+  ]
+}

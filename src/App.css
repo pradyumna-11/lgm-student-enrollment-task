@@ -1,0 +1,234 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  max-height: 100%;
+  background-color: black;
+}
+
+.header-container {
+  background-color: aquamarine;
+  font-size: 23px;
+  font-family: "Bree Serif";
+  color: black;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.section-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+  /*min-height: 70vh;
+  max-height: 100%;*/
+}
+
+.section-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 4px;
+  border-style: solid;
+  border-color: aquamarine;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 50%;
+  padding: 15px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.field-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  margin: 10px;
+}
+
+.label {
+  font-size: 15px;
+  font-family: "Roboto";
+  margin-right: 10px;
+  color: white;
+}
+
+.input-field {
+  border-radius: 8px;
+  padding: 8px;
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  color: black;
+}
+
+.radios-outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 65%;
+}
+
+.radio-inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 65%;
+}
+
+.gender-label {
+  color: white;
+  font-size: 14px;
+}
+
+.checkbox-label {
+  margin-left: 5px;
+  font-size: 15px;
+  font-family: "Roboto";
+  margin-right: 7px;
+  color: white;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.enroll-button {
+  height: 38px;
+  width: 150px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: rgb(53, 53, 174);
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto";
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.clear-button {
+  height: 38px;
+  width: 150px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: rgb(194, 70, 70);
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto";
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.student-details {
+  font-size: 40px;
+  font-family: "Bree Serif";
+  color: white;
+  text-align: center;
+  align-self: center;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  min-width: 45%;
+  height: 70vh;
+  padding: 0px;
+}
+
+.students-heading {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Sans Serif";
+  margin-bottom: 15px;
+  color: white;
+}
+
+.students-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-y: auto;
+
+  padding: 0px;
+  flex-grow: 1;
+}
+
+.error-msg {
+  font-size: 14px;
+  font-family: "Bree Serif";
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .section-containers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .students-cards-container {
+    overflow-y: none;
+    height: 100%;
+  }
+
+  .section-1 {
+    border: none;
+    width: 100%;
+  }
+
+  .student-details {
+    text-align: right;
+    width: 100%;
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+  }
+  .student-form {
+    width: 90%;
+    align-items: center;
+  }
+
+  .section-2 {
+    height: 100%;
+    width: 100%;
+  }
+
+  .students-cards-container {
+    width: 100%;
+  }
+}
