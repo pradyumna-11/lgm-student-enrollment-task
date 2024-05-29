@@ -26,6 +26,9 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+
+  /*min-height: 70vh;
+  max-height: 100%;*/
 }
 
 .section-1 {
@@ -158,7 +161,7 @@ body {
   display: flex;
   flex-direction: column;
   min-width: 45%;
-  height: 55vh;
+  height: 70vh;
   padding: 0px;
 }
 
@@ -177,7 +180,9 @@ body {
   align-items: center;
   width: 100%;
   overflow-y: auto;
+
   padding: 0px;
+  flex-grow: 1;
 }
 
 .error-msg {
